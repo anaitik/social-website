@@ -1,0 +1,33 @@
+.login_login_button{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+/* .login_min_height{
+  min-height: 541px;
+}
+@media (height : 768px) {
+  .login_min_height{
+    min-height: 652px;
+  }
+} */
+
+.Login_img{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @-webkit-keyframes up-down {
+  0% {
+  transform: translateY(10px);
+  }
+  100% {
+  transform: translateY(-10px);
+  }
+  }
+  @keyframes up-down {
+  0% {
+  transform: translateY(10px);
+  }
+  100% {
+  transform: translateY(-10px);
+  }
+  }
